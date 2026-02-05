@@ -814,17 +814,15 @@ img {
   letter-spacing: 0.5px;
 }
 
-/* Prevent horizontal overflow globally */
-html,
-body {
-  overflow-x: hidden;
-}
-
 /* ---------- Large Tablets & Below ---------- */
 @media (max-width: 1200px) {
   .header-container {
     margin: 0 40px;
   }
+
+    .hero-bg img {
+      object-position: right;
+    }
 
   .about-grid,
   .carousel-list {
